@@ -30,7 +30,7 @@
     "url": "https://github.com/NadiaM22/astro-llms-txt/issues"
   },
   "dependencies": {
-    "llms-txt-generator": "github:NadiaM22/llms-txt-generator"
+    "@nadiamohamed/llms-txt-generator": "github:NadiaM22/llms-txt-generator"
   },
   "peerDependencies": {
     "astro": ">=3.0.0"

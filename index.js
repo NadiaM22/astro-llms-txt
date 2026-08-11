@@ -65,7 +65,7 @@ export default function astroLlmsTxt(options = {}) {
 
           // Deferred so the package imports (and tests) without the dependency
           // installed; it is only needed when a build actually runs.
-          const { generate } = await import('llms-txt-generator');
+          const { generate } = await import('@nadiamohamed/llms-txt-generator');
 
           let content = await generate({
             sitemap: sitemapUrl,
