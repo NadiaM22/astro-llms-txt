@@ -1,0 +1,41 @@
+{
+  "name": "@nadiamohamed/astro-llms-txt",
+  "version": "0.1.0",
+  "description": "Astro integration that generates a spec-compliant llms.txt from your sitemap at build time, so AI search engines get a curated map of your site.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "astro-integration",
+    "astro-component",
+    "llms-txt",
+    "seo",
+    "generative-engine-optimization"
+  ],
+  "author": "Nadia Mohamed <hello@nadiamohamed.me> (https://nadiamohamed.me)",
+  "license": "MIT",
+  "homepage": "https://nadiamohamed.me/insights/llms-txt-file-seo-saas-implementation/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadiaM22/astro-llms-txt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NadiaM22/astro-llms-txt/issues"
+  },
+  "dependencies": {
+    "llms-txt-generator": "github:NadiaM22/llms-txt-generator"
+  },
+  "peerDependencies": {
+    "astro": ">=3.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
